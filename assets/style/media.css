@@ -1,0 +1,207 @@
+@media (max-width: 1200px) {
+  .header__nav1 .header__link {
+    margin-right: 35px;
+  }
+
+  .header__svg {
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 1128px) {}
+
+@media (max-width: 1080px) {
+  .header__logo {
+    font-size: 24px;
+  }
+
+  .header__link {
+    font-size: 13px;
+  }
+
+  .footer__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .products__title {
+    margin-left: 24px;
+  }
+
+  .justify-around {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    font-size: 22px;
+    margin-right: 10px;
+  }
+
+  .header__link {
+    font-size: 11px;
+  }
+
+}
+
+@media (max-width: 825px) {
+  .hero__container {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__rect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 273px;
+    position: static;
+    height: 340px;
+  }
+
+  .hero__title {
+    display: inline-block;
+  }
+
+  .products__title {
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 820px) {
+  .header__container {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    margin-left: 20px;
+  }
+
+  .header__nav1,
+  .header__nav2 {
+    display: none;
+  }
+
+  .header__burger {
+    display: block;
+    margin-right: 30px;
+  }
+
+  .products {
+    padding: 90px 17px 105px;
+  }
+
+  .products__container {
+    max-width: 1010px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .products__top-part {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+
+  .products__bottom-part {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "products__img3"
+      "products__img4"
+      "products__img5"
+      "products__img6";
+    grid-template-rows: none;
+    height: 100%;
+  }
+
+  .products__img {
+    min-height: 360px;
+  }
+
+  .products__img1 {
+    background: url("../images/bags2.jpg") no-repeat center/cover;
+  }
+
+  .products__img2 {
+    background: url("../images/shoes2.jpg") no-repeat center/cover;
+  }
+
+  .products__img3 {
+    grid-area: products__img3;
+    background: url("../images/sunglasses2.jpg") no-repeat center/cover;
+
+  }
+
+  .products__img4 {
+    grid-area: products__img4;
+    background: url("../images/lingerine2.jpg") no-repeat center/cover;
+  }
+
+  .products__img5 {
+    grid-area: products__img5;
+    background: url("../images/watch2.jpg") no-repeat center/cover;
+  }
+
+  .products__img6 {
+    grid-area: products__img6;
+    background: url("../images/accessories2.jpg") no-repeat center/cover;
+  }
+
+  .products__title {
+    margin-top: 26px;
+    margin-left: 42px;
+  }
+
+  .footer__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__container {
+    padding: 0 21px;
+  }
+}
+
+@media (max-width: 626px) {
+  .hero__rect {
+    height: 379px;
+    padding: 56px 35px 76px;
+  }
+
+  .hero__title {
+    font-size: 28px;
+  }
+
+  .hero__desc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .products__img {
+    min-height: 300px;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .products__title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 520px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 460px) {
+  .header__logo {
+    max-width: 206px;
+  }
+}
+
+@media (max-width: 390px) {}
+
+@media (max-width: 375px) {}
